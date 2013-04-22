@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Управление счетами</string>
+    <string name="main_login">Введите логин</string>
+    <string name="main_password">Введите пароль</string>
+    <string name="main_enter">Ввойти</string>
+    <string name="main_register">Регистрация</string>
+    <string name="main_exit">Выйти</string>
+    <string name="main_register_validation">Заполните форму</string>
+    <string name="list_addcheck_validation">Такой номер уже существует</string>
+    <string name="main_register_validationLogin">Такой логин уже существует</string>
+    <string name="main_validation">Пожалуйста, проверьте правильность написания логина и пароля.</string>
+    <string name="list_addNumber">Добавить счет</string>
+    <string name="addCheck_number">Введите номер счета</string>
+    <string name="addCheck_descr">Введите описание</string>
+    <string name="addCheck_add">Добавить</string>
+    <string name="list_check_add">Добавить средств</string>
+    <string name="list_check_del">Изьять средства</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" android:layout_gravity="center" android:hint="@string/main_login"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1" android:layout_gravity="center" android:password="true"
+            android:singleLine="false" android:hint="@string/main_password"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_enter"
+            android:id="@+id/button" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_register"
+            android:id="@+id/button1" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="@string/main_exit"
+            android:id="@+id/button2" android:layout_gravity="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_validation"
+            android:id="@+id/textView" android:layout_gravity="center" android:visibility="invisible"/>
+</LinearLayout>
+
